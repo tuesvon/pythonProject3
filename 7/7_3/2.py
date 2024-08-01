@@ -1,9 +1,5 @@
-# Вычисление суммы и произведения
-
-total = 0
-for _ in range(10):
-    num = int(input())
-    if num > 10:
-        total = total + num
-
-print('Сумма чисел больших 10 равна',  total)
+num1 = 4
+num2 = 6
+num1 += num2 #10 num1 == 10
+num1 *= num1 #
+print(num1)
